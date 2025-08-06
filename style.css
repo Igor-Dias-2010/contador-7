@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrois-gothic-sc-regular {
+  font-family: "Carrois Gothic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    transition: all 0.5s ease;
+    min-height: 100vh;
+}
+
+#container {
+    text-align: center;
+}
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.light {
+    background-color: white;
+    color: #121212;
+}
+
+p {
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#duo {
+    background-image: url(bola_para_mudar_de_cor_yng_yang-removebg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+#duo:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+    text-align: center;
+}
+#container button{
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(180, 180, 180);
+    border: 2px solid #121212;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+#container button:hover{
+    transform: scale(1.1);
+}
